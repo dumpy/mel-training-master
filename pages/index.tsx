@@ -26,7 +26,9 @@ export default function Home(props: Props) {
 
   return (
     <>
-      <div className="banner">*** Emergency Emergency ***</div>
+      <div className="banner">
+        *** Emergency Emergency Do Something Send Bitcoin ***
+      </div>
       {/* Add the banner here */}
       {getEntry ? (
         <RenderComponents

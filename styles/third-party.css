@@ -395,17 +395,66 @@ optgroup {
    * Remove most spacing between table cells.
    */
 
+/**
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 td, th {
-  padding: 0;
+  padding: 10;
 }
 
 /* CSS Resets */
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+
+
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* Table header styling */
+th, td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+}
+
+/* Table header background color */
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* Hover effect for rows */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive table */
+@media screen and (max-width: 600px) {
+  table {
+      width: 100%;
+  }
+  th, td {
+      padding: 10px;
+  }
 }

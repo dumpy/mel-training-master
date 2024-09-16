@@ -458,3 +458,14 @@ tr:hover {
       padding: 10px;
   }
 }
+
+
+/* Custom class for red text */
+.red-text {
+  color: red;
+}
+
+/* Custom ID for red text */
+#blue-text {
+  color: blue;
+}

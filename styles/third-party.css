@@ -413,6 +413,9 @@ td, th {
 
 
 
+/* New Table Styles
+     ========================================================================== */
+
 
 /* Table styling */
 table {
@@ -431,22 +434,8 @@ th, td {
 
 /* Table header background color */
 th {
-  background-color: #f2f2f2;
-  color: #333;
-}
-
-/* Alternating row colors */
-tr:nth-child(even) {
-  background-color: #f9f9f9;
-}
-
-tr:nth-child(odd) {
-  background-color: #fff;
-}
-
-/* Hover effect for rows */
-tr:hover {
   background-color: #f1f1f1;
+  color: #333;
 }
 
 /* Responsive table */
@@ -459,13 +448,43 @@ tr:hover {
   }
 }
 
-
-/* Custom class for red text */
-.red-text {
+/* Custom color classes for text */
+.text-red {
   color: red;
 }
 
-/* Custom ID for red text */
-#blue-text {
+.text-blue {
   color: blue;
+}
+
+.text-green {
+  color: green;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-orange {
+  color: orange;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.text-pink {
+  color: pink;
+}
+
+.text-brown {
+  color: brown;
+}
+
+.text-gray {
+  color: gray;
+}
+
+.text-black {
+  color: black;
 }

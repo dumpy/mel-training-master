@@ -432,11 +432,16 @@ th, td {
   border: 1px solid #ddd;
 }
 
-/* Table header background color */
+/* Table header background color and bold text */
 th {
   background-color: #f1f1f1;
   color: #333;
+  font-weight: bold;
 }
+
+/* Removed alternating row colors */
+
+/* Removed hover effect */
 
 /* Responsive table */
 @media screen and (max-width: 600px) {

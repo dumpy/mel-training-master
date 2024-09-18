@@ -493,3 +493,9 @@ th {
 .text-black {
   color: black;
 }
+
+/* Custom color classes for image */
+.custom-image {
+  width: 800px;
+  height: auto; /* This maintains the aspect ratio */
+}

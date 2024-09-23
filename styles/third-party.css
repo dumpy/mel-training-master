@@ -501,7 +501,3 @@ th {
   height: auto; /* This maintains the aspect ratio */
 }
 
-/* Custom styles from CMS */
-.text-orange {
-  color: orange;
-}

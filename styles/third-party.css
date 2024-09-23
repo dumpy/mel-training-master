@@ -499,3 +499,7 @@ th {
   width: 800px;
   height: auto; /* This maintains the aspect ratio */
 }
+
+td[data-status="Cancelled"] {
+  color: red;
+}

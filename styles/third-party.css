@@ -500,6 +500,11 @@ th {
   height: auto; /* This maintains the aspect ratio */
 }
 
-td[data-status="Cancelled"] {
+/* Style for paragraphs inside table cells containing the word "Cancelled" */
+td p {
+  color: inherit; /* Ensure the paragraph inherits the color from the td */
+}
+
+td p:contains("Cancelled") {
   color: red;
 }

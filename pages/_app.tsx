@@ -1,20 +1,19 @@
-import App from 'next/app';
-import Head from 'next/head';
-import Router from 'next/router';
-import NProgress from 'nprogress';
-import Layout from '../components/layout';
-import { getHeaderRes, getFooterRes, getAllEntries } from '../helper';
-import 'nprogress/nprogress.css';
-import '../styles/third-party.css';
-import '../styles/style.css';
-import 'react-loading-skeleton/dist/skeleton.css';
-import '@contentstack/live-preview-utils/dist/main.css';
+import App from "next/app";
+import Head from "next/head";
+import Router from "next/router";
+import NProgress from "nprogress";
+import Layout from "../components/layout";
+import { getHeaderRes, getFooterRes, getAllEntries } from "../helper";
+import "nprogress/nprogress.css";
+import "../styles/third-party.css";
+import "../styles/style.css";
+import "react-loading-skeleton/dist/skeleton.css";
+import "@contentstack/live-preview-utils/dist/main.css";
 import { Props } from "../typescript/pages";
 
-
-Router.events.on('routeChangeStart', () => NProgress.start());
-Router.events.on('routeChangeComplete', () => NProgress.done());
-Router.events.on('routeChangeError', () => NProgress.done());
+Router.events.on("routeChangeStart", () => NProgress.start());
+Router.events.on("routeChangeComplete", () => NProgress.done());
+Router.events.on("routeChangeError", () => NProgress.done());
 
 function MyApp(props: Props) {
   const { Component, pageProps, header, footer, entries } = props;
@@ -27,8 +26,8 @@ function MyApp(props: Props) {
         metaArr.push(
           <meta
             name={
-              key.includes('meta_')
-                ? key.split('meta_')[1].toString()
+              key.includes("meta_")
+                ? key.split("meta_")[1].toString()
                 : key.toString()
             }
             content={seo[key].toString()}
@@ -44,18 +43,23 @@ function MyApp(props: Props) {
     <>
       <Head>
         <meta
-          name='application-name'
-          content='Contentstack-Nextjs-Starter-App'
+          name="application-name"
+          content="Contentstack-Nextjs-Starter-App"
         />
-        <meta charSet='utf-8' />
-        <meta httpEquiv='X-UA-Compatible' content='IE=edge' />
+        <meta charSet="utf-8" />
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
-          name='viewport'
-          content='width=device-width,initial-scale=1,minimum-scale=1'
+          name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1"
         />
-        <meta name='theme-color' content='#317EFB' />
+        <meta name="theme-color" content="#317EFB" />
         <title>Contentstack-Nextjs-Starter-App</title>
         {page?.seo && page.seo.enable_search_indexing && metaData(page.seo)}
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt76cac9d4008a91ac/66f0c8d696eb450a1c79f547/cms-styles.css"
+        />
       </Head>
       <Layout
         header={header}

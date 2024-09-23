@@ -470,10 +470,6 @@ th {
   color: yellow;
 }
 
-.text-orange {
-  color: orange;
-}
-
 .text-purple {
   color: purple;
 }
@@ -500,11 +496,6 @@ th {
   height: auto; /* This maintains the aspect ratio */
 }
 
-/* Style for paragraphs inside table cells containing the word "Cancelled" */
-td p {
-  color: inherit; /* Ensure the paragraph inherits the color from the td */
-}
 
-td p:contains("Cancelled") {
-  color: red;
-}
+/* Import the external CSS file from your CMS */
+@import url('https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt76cac9d4008a91ac/66f0c8d696eb450a1c79f547/cms-styles.css');

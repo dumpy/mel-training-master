@@ -55,11 +55,6 @@ function MyApp(props: Props) {
         <meta name="theme-color" content="#317EFB" />
         <title>Contentstack-Nextjs-Starter-App</title>
         {page?.seo && page.seo.enable_search_indexing && metaData(page.seo)}
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt76cac9d4008a91ac/66f0c8d696eb450a1c79f547/cms-styles.css"
-        />
       </Head>
       <Layout
         header={header}

@@ -1,5 +1,10 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+/* Import the external CSS file from your CMS */
+@import url('https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt76cac9d4008a91ac/66f0c8d696eb450a1c79f547/cms-styles.css');
+
+
+
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS and IE text size adjust after device orientation change,
@@ -496,6 +501,7 @@ th {
   height: auto; /* This maintains the aspect ratio */
 }
 
-
-/* Import the external CSS file from your CMS */
-@import url('https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt76cac9d4008a91ac/66f0c8d696eb450a1c79f547/cms-styles.css');
+/* Custom styles from CMS */
+.text-orange {
+  color: orange;
+}

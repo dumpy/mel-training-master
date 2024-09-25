@@ -75,6 +75,7 @@ export default function BlogPost({
           ) : (
             <Skeleton height={800} width={800} />
           )}
+          {/*
           <video width="800" controls preload="none">
             <source
               src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4"
@@ -88,6 +89,7 @@ export default function BlogPost({
             />
             Your browser does not support the video tag.
           </video>
+          */}
         </article>
 
         {/*

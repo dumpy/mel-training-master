@@ -36,6 +36,7 @@ export default function BlogPost({
   const { post, banner } = getPost;
   return (
     <>
+      {/* comment out banner
       {banner ? (
         <RenderComponents
           pageComponents={banner.page_components}
@@ -47,6 +48,7 @@ export default function BlogPost({
       ) : (
         <Skeleton height={400} />
       )}
+      */}
       <div className="blog-container">
         <article className="blog-detail">
           {post && post.title ? (

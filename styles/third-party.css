@@ -511,5 +511,8 @@ footer {
   display: none;
 }
 
+.blog-detail p:first-of-type {
+  display: none;
+}
 
 

@@ -76,8 +76,11 @@ export default function BlogPost({
             <Skeleton height={800} width={600} />
           )}
         </article>
-        <video width="320" height="240" controls preload="none">
-          <source src="/path/to/video.mp4" type="video/mp4" />
+        <video width="1000" height="562.5" controls preload="none">
+          <source
+            src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4"
+            type="video/mp4"
+          />
           <track
             src="/path/to/captions.vtt"
             kind="subtitles"

@@ -498,7 +498,7 @@ th {
 }
 
 iframe[src*="player.vimeo.com"] {
-  width: 100%;
+  width: 1000px;
   border: none;
 }
 

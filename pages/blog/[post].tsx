@@ -73,10 +73,9 @@ export default function BlogPost({
           {post && post.body ? (
             <div {...(post.$?.body as {})}>{parse(post.body)}</div>
           ) : (
-            <Skeleton height={800} width={600} />
+            <Skeleton height={800} width={800} />
           )}
-
-          <video width="1000" height="562.5" controls preload="none">
+          <video width="800" controls preload="none">
             <source
               src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4"
               type="video/mp4"

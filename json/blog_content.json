@@ -1,0 +1,1175 @@
+{
+  "entry": {
+    "uid": "bltda355304b9aba424",
+    "_version": 51,
+    "locale": "en-us",
+    "ACL": {},
+    "_in_progress": false,
+    "author": [{ "uid": "blt72e5e7dac6872082", "_content_type_uid": "author" }],
+    "body": {
+      "type": "doc",
+      "uid": "697f7c08cb543ab2c4002d0c403bfe7a",
+      "_updated_by": "cs-migration/v1-v2",
+      "attrs": {},
+      "children": [
+        {
+          "uid": "aecc70915dad4019b6ed565dffd8872e",
+          "type": "h1",
+          "children": [{ "text": "Testing the Video Options" }],
+          "attrs": {}
+        },
+        {
+          "uid": "2163f57915114670ba08f43c6b2a91a0",
+          "type": "reference",
+          "attrs": {
+            "display-type": "download",
+            "asset-uid": "bltcaad1a535466f1e7",
+            "content-type-uid": "sys_assets",
+            "asset-link": "https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4",
+            "asset-name": "00 - Voice selection.mp4",
+            "asset-type": "video/mp4",
+            "type": "asset",
+            "class-name": "embedded-asset",
+            "alt": "00 - Voice selection.mp4",
+            "asset-alt": "00 - Voice selection.mp4",
+            "inline": false
+          },
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "47c245bc9f6640ab8d089de7c7016ad5",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "5d784f2e2c3646ada0db5cfaacbd17db",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "a61e7057981b465883160a27ee0e5979",
+          "type": "embed",
+          "attrs": {
+            "src": "https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4"
+          },
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "ae48f6de76ea475c847853c09f4809fd",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "7028c69e10d74039896ad11ab7fbce11",
+          "type": "p",
+          "attrs": {},
+          "children": [
+            { "text": "" },
+            {
+              "uid": "7dbbd1a26ac940cba08dea0bedda6b42",
+              "type": "a",
+              "attrs": {
+                "url": "https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4",
+                "target": "_self"
+              },
+              "children": [{ "text": "Awesome Training Video One" }]
+            },
+            { "text": "" }
+          ]
+        },
+        {
+          "uid": "c7ae782af5744c3483c90f8897e6210a",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "81a038f22b6d4e6a9552a781951aca61",
+          "type": "p",
+          "attrs": {},
+          "children": [
+            { "text": "" },
+            {
+              "uid": "08b78d22c6c44fd09c43fd8f23f74014",
+              "type": "a",
+              "attrs": {
+                "url": "https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4",
+                "target": "_blank"
+              },
+              "children": [{ "text": "Second Version" }]
+            },
+            { "text": "" }
+          ]
+        },
+        {
+          "uid": "b883f9ac3505400d9c1137a8391ee47e",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "2645bc4400fb454ebebb203fba1133a5",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "type": "h2",
+          "attrs": {},
+          "uid": "31b94edb6dfd45b5b5ccf5ea7e780055",
+          "children": [{ "bold": true, "text": "Table Example" }]
+        },
+        {
+          "uid": "a0c84b22f9aa4ce3a202391e39a1b95f",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "0247ac9585e740daafb94659b9817e40",
+          "type": "table",
+          "attrs": { "rows": 6, "cols": 4, "colWidths": [250, 250, 250, 250] },
+          "children": [
+            {
+              "uid": "b5e56d7294c3429f804968384810cfd6",
+              "type": "thead",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Header" }],
+                          "uid": "fc64696bbafb47b9a13d9a0c0a32ad35"
+                        }
+                      ],
+                      "uid": "38d6c8353000455fad91b6a85ddfb7d3"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Header" }],
+                          "uid": "a67c0e0293a84499873138c25941877d"
+                        }
+                      ],
+                      "uid": "8b223b4c2eec4e08b1d5410361d3e231"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Header" }],
+                          "uid": "e23e75577aad4e6b87b974427ce2187a"
+                        }
+                      ],
+                      "uid": "0b94936226b5442d86d1069d169b0458"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Header" }],
+                          "uid": "431ea23ca2a64a0d9e93d6f30147f0c5"
+                        }
+                      ],
+                      "uid": "2e0a446c73234955a2320d4f7ce80dc0"
+                    }
+                  ],
+                  "uid": "d3d27230e76f45358116f9fa34a2930d"
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "d48763f48ba0429caf9de1cbaad107dc",
+                          "type": "p",
+                          "children": [{ "text": "Data 1" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "6470c1fe24904a8c85d005491510338f"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "c575d827a3d74ff8b04af18f4d29fb21",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 2", "classname": "text-red" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "a166c68593e446fbacb06db89472e643"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "fbf11c85a99847f086a0e9f1fbee03a4",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 3", "classname": "text-red" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "2fac8f1e25384d1084b81e2e018c630f"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "36ebe0bec3c448f6b84d3afc82d58bf1",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 4", "classname": "text-red" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "33f26d3c697f4ae98b8899d4f54459a5"
+                    }
+                  ],
+                  "uid": "1d55475559ae48d19e50d49a8382b1d8"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "0b58f6bbaa0d4436a99c6c36afe4b512",
+                          "type": "p",
+                          "children": [{ "text": "Data 2" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4f41a8f20e2340af9619e47c2e77fda2"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "3c82376df6fa480f8e12669efb7ce3ea",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 3", "classname": "text-orange" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "d93e49f6667b48baa91f97ba1f21cfec"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "b396e33d7be7413aaa0c823e82a42412",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 4", "classname": "text-orange" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "5f19e6f85b514ffda7b0483b566170c9"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "a96136dd436e4d1c8751f1787d3dc865",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 5", "classname": "text-orange" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "ee8c8b0013344568a4f1ce89aafe8ded"
+                    }
+                  ],
+                  "uid": "0ad9a41b8d3c4e10b852b3bf7a363e45"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "8a88af5a3b0c46968be0f581609c92a8",
+                          "type": "p",
+                          "children": [{ "text": "Data 3" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "0459e36e13d447fa992acf94bbc0d7f7"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "bf0040dfaba5451d8f6807460ed7b799",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 4", "classname": "text-blue" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4f108ff2dbb7458291417fb9f2c981c0"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "1617ebc1a8d541d59c2d85a8825e4c41",
+                          "type": "p",
+                          "children": [
+                            { "text": "Data 5", "classname": "text-blue" }
+                          ],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "0a47ad5d9d2a42b5ba8e56071bb709cb"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "d0f4d99075d841239b72192df4ee1977",
+                          "type": "p",
+                          "children": [{ "text": "Data 6" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "80737f521ec14cca886f67c2f07be674"
+                    }
+                  ],
+                  "uid": "54e6b3b63ba14592b6343f93084d4757"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "871cda7d8d9249a4bdfaaf200f20ea89",
+                          "type": "p",
+                          "children": [{ "text": "Data 4" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "83013423f8604248a5ef736991aa5607"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "b1b1b3c0c6de4914bcb2786298ce7ab9",
+                          "type": "p",
+                          "children": [{ "text": "Data 5" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4258e30f049f4ffbb3c7e3fc3f35b660"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "f2f448f3dc03488ab25e264011bf85f2",
+                          "type": "p",
+                          "children": [{ "text": "Data 6" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "b59b472c1f0845ea9f9de08e43ddfb60"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "9815df7be7814f00927cbdf30e3bbcac",
+                          "type": "p",
+                          "children": [{ "text": "Data 7" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "d8763f5c938145e8addbfcee42bd8ca0"
+                    }
+                  ],
+                  "uid": "d9b0d8fab2bc413f9877228bc8e6d9d3"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "25ca57e3b89d41ce919596626541394b",
+                          "type": "p",
+                          "children": [{ "text": "Data 5" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "d3fb8ab92d5548afa7d165026096da81"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "a1b0939d4edf4847a5d712bef3f08efa",
+                          "type": "p",
+                          "children": [{ "text": "Data 6" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "d7081458422d4873aedbddea8e4f17f7"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "68a7c606a549433d836af4c27b9e0003",
+                          "type": "p",
+                          "children": [{ "text": "Data 7" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4a302083380544a8a8605ef619370635"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "6b4be1b5b5b64758a5de37473416341a",
+                          "type": "p",
+                          "children": [{ "text": "Data 8" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "a61342bb212a4dd1bc941ff327b89dde"
+                    }
+                  ],
+                  "uid": "f06fe46d12a644a097a15e602d8619c2"
+                }
+              ],
+              "uid": "ca3980d4e83f487db599c71b32ea6b42"
+            }
+          ]
+        },
+        {
+          "uid": "fb5bbc7b949044bc9e3a21489f490d2b",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "255569ae8f2b437ca96cf11464e0d857",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "105f1af21de244bc8da8d4cca3bc4cf0",
+          "type": "table",
+          "attrs": { "rows": 6, "cols": 4, "colWidths": [250, 250, 250, 250] },
+          "children": [
+            {
+              "uid": "682a38fa47f44a5fa8ff5d8550cc5495",
+              "type": "thead",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "" }],
+                          "uid": "992a3839260943139aa7999fe4383f99"
+                        }
+                      ],
+                      "uid": "523ec4a5e7324ecc9c61bacb06a229c1"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "" }],
+                          "uid": "c4dbb70b12dc44e790e44197cd170b4a"
+                        }
+                      ],
+                      "uid": "fc7529941bc94108aeb438419bf3993a"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "" }],
+                          "uid": "ab4a49043f1d414b95fe77e9da0d0905"
+                        }
+                      ],
+                      "uid": "6febb3c4a43243fdb42f9136ed7f8e88"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "" }],
+                          "uid": "0000af1bda6248f4b8256ef9c222760c"
+                        }
+                      ],
+                      "uid": "34eeb684cbcd4b8e981d84b9906cb72c"
+                    }
+                  ],
+                  "uid": "e8169f01f48f4db991b90ead6b667adb"
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "2fad9ca1ae0d4318ae429b11b5dbff9c",
+                          "type": "p",
+                          "children": [{ "text": "Data 1" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4102a20f92ca4ee387d0884f12b8e801"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "7b681dabf3d74a8799a263c89efcfd4d",
+                          "type": "p",
+                          "children": [{ "text": "Data 2" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "6032ecd9ba464385824ac69707a71a6a"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "1464e01a9c6547519d3891af48c5feeb",
+                          "type": "p",
+                          "children": [{ "text": "Data 3" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "d9cfbdb265894b3287e0789923be105f"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "75959677d06343fca1a363bc868a4687",
+                          "type": "p",
+                          "children": [{ "text": "Data 4" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "b1ec4002635b449da517982cff54e6f8"
+                    }
+                  ],
+                  "uid": "8b24270d8a56490b968e88f33692e1b1"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "6a54212f1c914141beadcdf924dc3c18",
+                          "type": "p",
+                          "children": [{ "text": "Data 2" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "550941aec8e44a1ab72571e935963636"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "a040142ce77e4f038b3eb8a6239fc3a4",
+                          "type": "p",
+                          "children": [{ "text": "Data 3" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "85b9c36572a647ddbbb47aadc0e3acef"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "ca8a672325944910a6e753a9863563fe",
+                          "type": "p",
+                          "children": [{ "text": "Data 4" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4a3a6425c9d444d48a38f5f9e80765a7"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "1924e082e97d444398172b68ead57a55",
+                          "type": "p",
+                          "children": [{ "text": "Data 5" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "2b2c7645a5364e2ca07c66f830af4d28"
+                    }
+                  ],
+                  "uid": "f49fba493ba4492dbace60b1b2984bed"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "b9e03f530b664d9787c03832d43797c3",
+                          "type": "p",
+                          "children": [{ "text": "Data 3" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "7728045651d34607a702f927e0bd7535"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "8e4e820e6b2341b992cbe2f1e9bedcbb",
+                          "type": "p",
+                          "children": [{ "text": "Data 4" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "ba32d43c41dc4cb6adae0be8d2a38cfe"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "98f761f803cc41e78d148defd0c1ff6f",
+                          "type": "p",
+                          "children": [{ "text": "Data 5" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "76d59188f4184635bc4a9de8bb897592"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "158c8d3c0ac844f3814eb37582705aa6",
+                          "type": "p",
+                          "children": [{ "text": "Data 6" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "fb9d1984dcef4a899bce1bf7141a0b2b"
+                    }
+                  ],
+                  "uid": "2eceb132a3ce45e0bec355165f906fd3"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "07898919b62946f4a83c1067ecf4c609",
+                          "type": "p",
+                          "children": [{ "text": "Data 4" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "28050e9d8ab9458c86e5ffe2ceb999b3"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "d6764623968c4f77824c8ce5effeb1af",
+                          "type": "p",
+                          "children": [{ "text": "Data 5" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "fcf7caa0b78f48c8a67609574df4fba8"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "9d34a1d5c97c46548ea1ba060caf4f75",
+                          "type": "p",
+                          "children": [{ "text": "Data 6" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "de6b73c909b04caf8647cdecad4db8fa"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "1fd91b8e667c46c48b00081d138ad95a",
+                          "type": "p",
+                          "children": [{ "text": "Data 7" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "7ff6b20997d54d5fb96c725b45d174e4"
+                    }
+                  ],
+                  "uid": "ec465aafec284734818beafb3c771f16"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "1fe09e1c3c21450194e8ec987762e072",
+                          "type": "p",
+                          "children": [{ "text": "Data 5" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "4b7f7a1200e442ba92b600ac2c4bf4ea"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "69178d1772d4436081cbe8ff94b8ff50",
+                          "type": "p",
+                          "children": [{ "text": "Data 6" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "c316f52e30214e08b55f7122bf3ace1f"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "05e34b7443ca4a4d95d8559d170f2915",
+                          "type": "p",
+                          "children": [{ "text": "Data 7" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "3c166c34c4c54190b0e3faa568333db2"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "uid": "471db82ac6534a7d9614b762bce1bbf9",
+                          "type": "p",
+                          "children": [{ "text": "Data 8" }],
+                          "attrs": {}
+                        }
+                      ],
+                      "uid": "ef6da9e82c7a40f0a95164f96ee1a242"
+                    }
+                  ],
+                  "uid": "ef9e9aa9e7564303a39ae7fc7628879b"
+                }
+              ],
+              "uid": "05609dc2dab7469b83aac1e54f3b0456"
+            }
+          ]
+        },
+        {
+          "uid": "c965989476b542b9bcea835bff167ea5",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "8521255d4305403ba4fac6248332c8a1",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "17db5f0e68a342a092f3664174a4933f",
+          "type": "table",
+          "attrs": { "rows": 3, "cols": 2, "colWidths": [250, 250] },
+          "children": [
+            {
+              "uid": "c94113461ec44071bbe4073fde176d05",
+              "type": "thead",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Header Col One" }],
+                          "uid": "515c957208d2494ab36f6c3dd58b6f3d"
+                        }
+                      ],
+                      "uid": "8de64c99519447fbb4322d0097269b09"
+                    },
+                    {
+                      "type": "th",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Header Col Two" }],
+                          "uid": "26a52f814e294a8691045a710985a747"
+                        }
+                      ],
+                      "uid": "2d0cb301ab0445c5806190d827fd7f49"
+                    }
+                  ],
+                  "uid": "e8a76be6eeab4fdbb466f1c0229175b8"
+                }
+              ]
+            },
+            {
+              "type": "tbody",
+              "attrs": {},
+              "children": [
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Value One" }],
+                          "uid": "399f7624ed7643d0a4d9dcecd38b9f7d"
+                        }
+                      ],
+                      "uid": "215d6f62ec584834a2b78fee3d48751d"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [
+                            {
+                              "text": "Value Two",
+                              "classname": "my-class",
+                              "id": ""
+                            }
+                          ],
+                          "uid": "e7936f45cad8439282ac49435582ed1c"
+                        }
+                      ],
+                      "uid": "73d3ba0cd7524ae8bb16f1813e38dc75"
+                    }
+                  ],
+                  "uid": "aa0bf4a59e854f24b345a3f2b5cee476"
+                },
+                {
+                  "type": "tr",
+                  "attrs": {},
+                  "children": [
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Value Three" }],
+                          "uid": "a94e046730e846cfb8f985eccea5fc2f"
+                        }
+                      ],
+                      "uid": "c451a666477141089b5875247187863b"
+                    },
+                    {
+                      "type": "td",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "type": "p",
+                          "attrs": {},
+                          "children": [{ "text": "Value Four", "bold": true }],
+                          "uid": "1f6c897e571848a2b3dd53343b7c3775"
+                        }
+                      ],
+                      "uid": "50f8117c493648b59e47ca1f15cb3cbc"
+                    }
+                  ],
+                  "uid": "f0d759a2ac374247af9746e23f1c2003"
+                }
+              ],
+              "uid": "99eb8021ab9548d3a2c8166dbf8dc65b"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }],
+          "uid": "ca2bac5fa4a64dc8acf8d30a1eecc52f"
+        },
+        {
+          "type": "h4",
+          "attrs": {},
+          "uid": "b228dbe0d2b24de5bb5ffb7cea40b8be",
+          "children": [{ "text": "As a link" }]
+        },
+        {
+          "type": "p",
+          "attrs": {},
+          "uid": "39ab8540fa8e412598e5fd71eee124f0",
+          "children": [
+            { "text": "" },
+            {
+              "uid": "eccca898b9a9473d8992f918f5b3509c",
+              "type": "a",
+              "attrs": {
+                "url": "https://www.youtube.com/watch?v=Nnl82hOPTwM",
+                "target": "_blank"
+              },
+              "children": [{ "text": "Driver Video" }]
+            },
+            { "text": "" }
+          ]
+        },
+        {
+          "type": "p",
+          "attrs": {},
+          "uid": "c18d342aa839428abb5ceed264c5bd08",
+          "children": [{ "text": "" }]
+        },
+        {
+          "type": "h4",
+          "attrs": {},
+          "uid": "a5773e3ba48f4a099485cdeb6baf3191",
+          "children": [{ "text": "As a video" }]
+        },
+        {
+          "uid": "3bbc564228534aa09548140f7fab5ab5",
+          "type": "embed",
+          "attrs": { "src": "https://www.youtube.com/embed/Nnl82hOPTwM" },
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "15d9ddbe147a441e922a5167b8289411",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "9aefb0efd44343c6974e83ad349d2e6e",
+          "type": "reference",
+          "attrs": {
+            "display-type": "display",
+            "asset-uid": "blt13e82579e8b6a369",
+            "content-type-uid": "sys_assets",
+            "asset-link": "https://azure-na-images.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt13e82579e8b6a369/66f3699291ce05c9ab77df7d/Train_Image_1000x760.png",
+            "asset-name": "Train_Image_1000x760.png",
+            "asset-type": "image/png",
+            "type": "asset",
+            "class-name": "embedded-asset",
+            "alt": "Train_Image_1000x760.png",
+            "asset-alt": "Train_Image_1000x760.png",
+            "inline": false
+          },
+          "children": [{ "text": "" }]
+        },
+        {
+          "uid": "eebd7189fdfc4067b509fe6570bbe98d",
+          "type": "p",
+          "attrs": {},
+          "children": [{ "text": "" }]
+        }
+      ],
+      "_version": 51
+    },
+    "created_at": "2024-09-03T06:33:04.573Z",
+    "created_by": "bltf8dda263dad994f8",
+    "date": "2021-02-07T08:13:44.000Z",
+    "featured_image": {
+      "_version": 1,
+      "is_dir": false,
+      "uid": "bltd8374617c179cc9f",
+      "ACL": {},
+      "content_type": "image/svg+xml",
+      "created_at": "2024-09-03T06:32:21.443Z",
+      "created_by": "bltf8dda263dad994f8",
+      "description": "",
+      "file_size": "53205",
+      "filename": "headless-cms-solution.svg",
+      "parent_uid": "blt508d60fcbbdde7b2",
+      "tags": [],
+      "title": "Headless CMS Solution",
+      "updated_at": "2024-09-03T06:32:21.443Z",
+      "updated_by": "bltf8dda263dad994f8",
+      "publish_details": {
+        "environment": "blta5bb6355802728d0",
+        "locale": "en-us",
+        "time": "2024-09-03T06:32:40.711Z",
+        "user": "bltf8dda263dad994f8"
+      },
+      "url": "https://azure-na-images.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltd8374617c179cc9f/66d6ad75c0a781a26822cc2a/headless-cms-solution.svg"
+    },
+    "is_archived": true,
+    "related_post": [],
+    "seo": {
+      "meta_title": "Blog",
+      "meta_description": "Blog data",
+      "keywords": "Headless CMS: The Solution to Top Challenges in Ecommerce",
+      "enable_search_indexing": true
+    },
+    "tags": [],
+    "title": "Testing Table Formats",
+    "updated_at": "2024-09-25T04:29:44.099Z",
+    "updated_by": "bltf8dda263dad994f8",
+    "url": "/blog/headless-cms-the-solution-to-top-challenges-in-ecommerce",
+    "publish_details": {
+      "time": "2024-09-25T04:29:50.699Z",
+      "user": "bltf8dda263dad994f8",
+      "environment": "blta5bb6355802728d0",
+      "locale": "en-us"
+    }
+  }
+}

@@ -497,3 +497,6 @@ th {
   height: auto; /* This maintains the aspect ratio */
 }
 
+.vp-player-ui-container.content-area-sibling-enabled {
+  width: 1000px;
+}

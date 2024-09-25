@@ -75,20 +75,22 @@ export default function BlogPost({
           ) : (
             <Skeleton height={800} width={600} />
           )}
+
+          <video width="1000" height="562.5" controls preload="none">
+            <source
+              src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4"
+              type="video/mp4"
+            />
+            <track
+              src="/path/to/captions.vtt"
+              kind="subtitles"
+              srcLang="en"
+              label="English"
+            />
+            Your browser does not support the video tag.
+          </video>
         </article>
-        <video width="1000" height="562.5" controls preload="none">
-          <source
-            src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/bltcaad1a535466f1e7/66f39120ff3a34515d907c5c/00_-_Voice_selection.mp4"
-            type="video/mp4"
-          />
-          <track
-            src="/path/to/captions.vtt"
-            kind="subtitles"
-            srcLang="en"
-            label="English"
-          />
-          Your browser does not support the video tag.
-        </video>
+
         {/*
         <div className="blog-column-right">
           <div className="related-post">

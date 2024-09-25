@@ -505,3 +505,8 @@ iframe[src*="player.vimeo.com"] {
 footer {
   display: none;
 }
+
+.blog-detail h2 {
+  display: none;
+}
+

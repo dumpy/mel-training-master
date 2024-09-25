@@ -499,7 +499,7 @@ th {
 
 iframe[src*="player.vimeo.com"] {
   width: 1000px;
-  border: none;
+  max-width: 100%;
 }
 
 footer {

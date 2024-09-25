@@ -300,8 +300,9 @@ footer a {
   padding: 60px;
 }
 
+/* changed to 800 from 690*/
 .blog-column-left {
-  width: 690px;
+  width: 800px;
 }
 
 .blog-column-right {
@@ -327,8 +328,9 @@ footer a {
 
 /* blog individual page */
 
+/* changed to 800 from 690*/
 .blog-detail {
-  width: 690px;
+  width: 800px;
 }
 
 /* home page */

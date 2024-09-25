@@ -74,6 +74,7 @@ export default function BlogPost({
             <Skeleton height={800} width={600} />
           )}
         </article>
+        {/*
         <div className="blog-column-right">
           <div className="related-post">
             {banner && banner?.page_components[2].widget ? (
@@ -95,6 +96,7 @@ export default function BlogPost({
             )}
           </div>
         </div>
+        */}
       </div>
     </>
   );

@@ -497,6 +497,7 @@ th {
   height: auto; /* This maintains the aspect ratio */
 }
 
-#player {
-  width: 1000px;
+.vimeo-video {
+  width: 100%; /* Adjust the width as needed */
+  height: 500px; /* Adjust the height as needed */
 }

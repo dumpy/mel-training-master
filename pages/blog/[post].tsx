@@ -70,7 +70,7 @@ export default function BlogPost({
               <Skeleton width={300} />
             </p>
           )}
-
+          <p></p>
           <video width="800" controls preload="none">
             <source
               src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2eaabfce7ed4dbf8/66f505d33e39c92441b02249/Monkey_Learn.mp4"
@@ -84,7 +84,7 @@ export default function BlogPost({
             />
             Your browser does not support the video tag.
           </video>
-
+          <p></p>
           {post && post.body ? (
             <div {...(post.$?.body as {})}>{parse(post.body)}</div>
           ) : (

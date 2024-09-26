@@ -507,9 +507,11 @@ footer {
   display: none;
 }
 
+/*
 .blog-detail h2 {
   display: none;
 }
+*/
 
 .blog-detail p:first-of-type {
   display: none;

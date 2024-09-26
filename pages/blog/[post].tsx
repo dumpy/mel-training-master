@@ -75,7 +75,7 @@ export default function BlogPost({
             width="800"
             controls
             preload="none"
-            poster="https://example.com/path/to/your/image.jpg"
+            poster="https://azure-na-images.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2e841106f77e3e1f/66f508e491ce053d68780d11/video_poster.png"
           >
             <source
               src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2eaabfce7ed4dbf8/66f505d33e39c92441b02249/Monkey_Learn.mp4"

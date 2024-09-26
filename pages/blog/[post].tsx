@@ -71,7 +71,12 @@ export default function BlogPost({
             </p>
           )}
           <p></p>
-          <video width="800" controls preload="none">
+          <video
+            width="800"
+            controls
+            preload="none"
+            poster="https://example.com/path/to/your/image.jpg"
+          >
             <source
               src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2eaabfce7ed4dbf8/66f505d33e39c92441b02249/Monkey_Learn.mp4"
               type="video/mp4"
@@ -84,6 +89,7 @@ export default function BlogPost({
             />
             Your browser does not support the video tag.
           </video>
+
           <p></p>
           {post && post.body ? (
             <div {...(post.$?.body as {})}>{parse(post.body)}</div>

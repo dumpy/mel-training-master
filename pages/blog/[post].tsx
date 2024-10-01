@@ -7,6 +7,7 @@ import Skeleton from "react-loading-skeleton";
 import RenderComponents from "../../components/render-components";
 import ArchiveRelative from "../../components/archive-relative";
 import { Page, BlogPosts, PageUrl } from "../../typescript/pages";
+import Player from "next-video/player";
 
 export default function BlogPost({
   blogPost,
@@ -71,6 +72,12 @@ export default function BlogPost({
             </p>
           )}
           <p></p>
+          return{" "}
+          <Player
+            src="https://www.mydomain.com/remote-video.mp4"
+            poster="https://www.mydomain.com/remote-poster.webp"
+            blurDataURL="data:image/webp;base64,UklGRlA..."
+          />
           <video
             width="800"
             controls
@@ -89,7 +96,6 @@ export default function BlogPost({
             />
             Your browser does not support the video tag.
           </video>
-
           <p></p>
           {post && post.body ? (
             <div {...(post.$?.body as {})}>{parse(post.body)}</div>

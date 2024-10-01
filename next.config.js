@@ -1,5 +1,4 @@
-const { withNextVideo } = require('next-video/process')
-
+const { withNextVideo } = require('next-video/process');
 const withPWA = require("next-pwa")({
   dest: "public",
 });
@@ -25,11 +24,7 @@ const config = {
   },
   experimental: { largePageDataBytes: 128 * 100000 },
 };
-module.exports =
-  process.env.NODE_ENV === "development" ? config : withPWA(config);
 
-// next.config.js
-const { withNextVideo } = require('next-video/process');
-
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+module.exports = process.env.NODE_ENV === "development" 
+  ? withNextVideo(config) 
+  : withPWA(withNextVideo(config));

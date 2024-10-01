@@ -72,12 +72,12 @@ export default function BlogPost({
             </p>
           )}
           <p></p>
-          return{" "}
           <Player
             src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2eaabfce7ed4dbf8/66f505d33e39c92441b02249/Monkey_Learn.mp4"
             poster="https://azure-na-images.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2e841106f77e3e1f/66f508e491ce053d68780d11/video_poster.png"
             blurDataURL="data:image/webp;base64,UklGRlA..."
           />
+          {/*
           <video
             width="800"
             controls
@@ -96,6 +96,7 @@ export default function BlogPost({
             />
             Your browser does not support the video tag.
           </video>
+          */}
           <p></p>
           {post && post.body ? (
             <div {...(post.$?.body as {})}>{parse(post.body)}</div>

@@ -28,3 +28,8 @@ const config = {
 module.exports =
   process.env.NODE_ENV === "development" ? config : withPWA(config);
 
+// next.config.js
+const { withNextVideo } = require('next-video/process');
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {};

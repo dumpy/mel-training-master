@@ -78,26 +78,26 @@ export default function BlogPost({
             blurDataURL="data:image/webp;base64,UklGRlA..."
             style={{ width: "100%" }}
           />
-          {/*
-          <video
-            width="800"
-            controls
-            preload="none"
-            poster="https://azure-na-images.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2e841106f77e3e1f/66f508e491ce053d68780d11/video_poster.png"
-          >
-            <source
-              src="https://azure-na-assets.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2eaabfce7ed4dbf8/66f505d33e39c92441b02249/Monkey_Learn.mp4"
-              type="video/mp4"
-            />
-            <track
-              src="/path/to/captions.vtt"
-              kind="subtitles"
-              srcLang="en"
-              label="English"
-            />
-            Your browser does not support the video tag.
-          </video>
-          */}
+          {
+            <video
+              width="800"
+              controls
+              preload="none"
+              poster="https://azure-na-images.contentstack.com/v3/assets/blt12e869bff3b72ddb/blt2e841106f77e3e1f/66f508e491ce053d68780d11/video_poster.png"
+            >
+              <source
+                src="https://videos.cmsdev.pacificnational.com.au/v3/assets/bltc485520582a3f303/blt4ad188ae530d13cc/672d81a62310edc4896908ae/48061_Retest_2024-11-08_10-50-58.mp4"
+                type="video/mp4"
+              />
+              <track
+                src="/path/to/captions.vtt"
+                kind="subtitles"
+                srcLang="en"
+                label="English"
+              />
+              Your browser does not support the video tag.
+            </video>
+          }
           <p></p>
           {post && post.body ? (
             <div {...(post.$?.body as {})}>{parse(post.body)}</div>
